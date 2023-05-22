@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "nlw",
-    "dateExported": "2023-05-22T16:08:44.937Z",
+    "dateExported": "2023-05-22T18:15:16.403Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,9 +14,13 @@
             "method": "GET",
             "sortNum": 10000,
             "created": "2023-05-20T23:58:20.553Z",
-            "modified": "2023-05-20T23:58:33.032Z",
+            "modified": "2023-05-22T18:08:15.942Z",
             "headers": [],
             "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmVuYXRvIFJlYm91w6dhcyIsImF2YXRhclVybCI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zNjYwOTA3ND92PTQiLCJzdWIiOiIzNGQ1ODEzMi1iMjk0LTQ0OWItOTY4OC1lMGEzY2IxNmRlNDMiLCJpYXQiOjE2ODQ3NzgyODcsImV4cCI6MTY4NzM3MDI4N30.HzHBolBmUkeRP_fPlGUsQidU1sdwNR7CTmkNRyKtjt0"
+            },
             "tests": []
         },
         {
@@ -64,6 +68,25 @@
             "modified": "2023-05-22T16:00:57.628Z",
             "headers": [],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "783000dd-4d3c-40a1-9228-969ad87f0a1c",
+            "colId": "37f6ac3f-4583-42cd-a543-274ce08c1189",
+            "containerId": "",
+            "name": "register",
+            "url": "localhost:3333/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-22T17:05:36.779Z",
+            "modified": "2023-05-22T17:58:07.653Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"code\": \"80a758d2ac2953eb8d06\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
